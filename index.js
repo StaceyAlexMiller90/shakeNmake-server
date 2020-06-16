@@ -17,5 +17,5 @@ app.use('/', authRouter)
 app.use('/recipes', recipeRouter)
 
 app.listen(PORT, () => {
-	console.log(`Listening on port: ${PORT}`)
+  console.log(`Listening on port: ${PORT}`)
 })
